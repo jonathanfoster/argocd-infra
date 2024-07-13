@@ -5,7 +5,7 @@
 ### 1. Create a local Kubernetes cluster
 
 ```bash
-kind create cluster --config=clusters/kind.yaml
+kind create cluster --name=argocd-infra
 ```
 
 ### 2. Install Argo CD
